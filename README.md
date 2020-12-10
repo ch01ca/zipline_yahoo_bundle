@@ -22,11 +22,15 @@ register(
 	start_session=start_session,
 	end_session=end_session
 	)
-```python
+```
 
 ### Calendar    
 Get all registered calendars with get_calendar_names:
+```
 	tc.get_calendar_names()[:5]
-  ['XPHS', 'FWB', 'CFE', 'CMES', 'XSGO']
+	['XPHS', 'FWB', 'CFE', 'CMES', 'XSGO']
+	```
 Get a calendar with get_calendar:
+```
 	xnys = tc.get_calendar("XNYS")
+	```
