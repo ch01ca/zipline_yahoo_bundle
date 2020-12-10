@@ -24,7 +24,7 @@ register(
 	)
 ```
 
-### Calendar    
+### Calendar 
 Get all registered calendars with get_calendar_names:
 ```
 	tc.get_calendar_names()[:5]
